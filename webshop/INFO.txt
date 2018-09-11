@@ -1,0 +1,12 @@
+1.       Restore CSDL file ecommerce.sql
+ 
+2.      Config file  dbconnect trong thu m?c lib\dbconnect     
+ 
+$ketnoi['Server']['name'] = 'localhost';
+$ketnoi['Database']['dbname'] = 'eCommerce';
+$ketnoi['Database']['username'] = 'root';
+$ketnoi['Database']['password'] = '';
+
+Link admin \admin.php
+User:[email protected]
+Pass:1
