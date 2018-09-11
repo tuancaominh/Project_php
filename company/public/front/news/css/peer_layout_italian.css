@@ -1,0 +1,785 @@
+/*
+Do not change this file it lost your changes.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************************************
+    Desktop, laptop - design for a width of 1280px
+*********************************************************************************************** */
+
+/* 1280px <= width */
+
+@media only screen and (min-width: 1280px)  {
+
+	/* Column Grid
+	======================================================================================= */
+	/* Column Grid: 1 columns */
+	.columngrid-adaptive.columngrid-1col .item { width:48%; clear:none !important; }
+	.columngrid-adaptive.columngrid-1col .item:nth-child(2n+1) { clear:left !important; }
+        
+        /* Column Grid: 2 columns */
+	.columngrid-adaptive.columngrid-2col .item { width:31.3333%; clear:none !important; }
+	.columngrid-adaptive.columngrid-2col .item:nth-child(3n+1) { clear:left !important; }
+	
+	/* Column Grid: 3 columns */
+	.columngrid-adaptive.columngrid-3col .item { width:23%; clear:none !important; }
+	.columngrid-adaptive.columngrid-3col .item:nth-child(4n+1) { clear:left !important; }
+	
+	/* Column Grid: 4 columns */
+	.columngrid-adaptive.columngrid-4col .item { width:18%; clear:none !important; }
+	.columngrid-adaptive.columngrid-4col .item:nth-child(5n+1) { clear:left !important; }
+	
+	/* Column Grid: 5 columns */
+	.columngrid-adaptive.columngrid-5col .item { width:14.6666%; clear:none !important; }
+	.columngrid-adaptive.columngrid-5col .item:nth-child(6n+1) { clear:left !important; }
+	
+	/* Column Grid: 6 columns */
+	.columngrid-adaptive.columngrid-6col .item { width:12.2857%; clear:none !important; }
+	.columngrid-adaptive.columngrid-6col .item:nth-child(7n+1) { clear:left !important; }
+	
+	/* Column Grid: 7 columns */
+	.columngrid-adaptive.columngrid-7col .item { width:10.5%; clear:none !important; }
+	.columngrid-adaptive.columngrid-7col .item:nth-child(8n+1) { clear:left !important; }
+        
+	/* Caption
+	======================================================================================= */
+	.caption .heading { font-size:40px; line-height: 36px;}
+	.caption p { font-size:24px; }
+        
+	/* Cart
+	======================================================================================= */
+	.cart-table .product-image { max-width:80px; }
+        
+	/* Misc
+	======================================================================================= */
+	/* Mini cart */
+	.after-mini-cart { clear:none; }        
+
+}
+
+
+
+/* ********************************************************************************************
+    Design for a width of 960-1280 px
+*********************************************************************************************** */
+
+/* 960px <= width < 1280px */
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+
+	/* Cart
+	======================================================================================= */
+	.cart-table .product-image { max-width:80px; }
+        
+}
+
+
+/* ********************************************************************************************
+    Design for a width of 1024 px
+*********************************************************************************************** */
+
+/* width <= 1024px */
+
+@media only screen and (max-width: 1024px) {
+
+        /* Header 4 style
+	======================================================================================= */
+        .header4 .mega-mobile-container{float:left;}
+        
+        /* Header 5 style
+	======================================================================================= */
+        .header5 .form-search .dropdown-menu{display:block;top: 0;z-index: -1;}
+        .header5 .top-links .links{float:none;}
+        .header5 .shopping_cart .icon-cart{border-left: none;}
+        .header5 .quick-search{width: 100%;float: none;max-width: none;clear:both;margin-top: 10px;}
+        .header5 .form-search .dropdown-menu{width:100%;position: relative;}
+        .header5 .form-search .input-text{width:100%;padding-right:40px;}
+        .header5 .form-search .button{position: absolute;}
+        .header5 .form-search .button span span{font-size:15px;padding:0 11px;}
+        
+        /* Header 6 style
+	======================================================================================= */
+        .header6 .form-search .dropdown-menu{display:block;top: 0;z-index: -1;}
+        .header6 .top-links .links{float:none;}
+        .header6 .cart-search.item-right{margin-left: 0;margin-right: 0px;display: inline-block;float: none;width: 100%;vertical-align: top;}
+        .header6 .shopping_cart .icon-cart{border-left: none;}
+        .header6 .mega-mobile-container{float:left;}
+        .header6 .shopping_cart{float:right;}
+        .header6 .form-search .input-text{padding-right: 40px;}
+        .header6 .form-search button.button span{color:inherit;}
+        .header6 .form-search button.button:hover span{color:inherit;}
+        
+        /* Products grid
+        ======================================================================================= */
+        .products-grid .item .visible-onhover {visibility: visible !important;opacity: 1 !important;}
+        .products-grid .item .fancybox { display: none !important; }
+        
+        /* Disable Hover Effect
+        ======================================================================================= */        
+        
+            /* Show elements normally displayed only on hover */
+            .products-grid .item .display-onhover {display: block !important;}
+            
+            /* Show elements normally displayed only on hover (Add to links) */
+            .products-grid .item:hover .add-to-links li,
+            .products-grid .item .add-to-links li{transform: scale(1);-moz-transform: scale(1);-webkit-transform: scale(1);-o-transform: scale(1);-ms-transform: scale(1);display: block !important;}
+            .products-grid .product-image-wrapper:before{display:none;}
+            
+            /* Product alter images normally displayed on hover */
+            .products-grid .item .product-image .small-image,
+            .products-grid .item:hover .product-image .small-image{opacity: 1;visibility: visible;}
+            .products-grid .item .product-image .thumbnail,
+            .products-grid .item:hover .product-image .thumbnail{opacity: 0;visibility: hidden;}
+            
+        /* Caption
+        ======================================================================================= */
+        .caption.middle.narrow, .caption.middle-right.narrow{width:50%;margin:6%;}
+        
+        /* Responsive Menu (Templete width)
+        ======================================================================================= */        
+        .toggleMenu{padding: 0 15px;}
+        
+        /* Sidenav
+        ======================================================================================= */                
+        
+            /* Hide Sidenav */
+            .block.block-sidenav{display: none;}
+            
+        
+
+}
+
+
+/* ********************************************************************************************
+    Mobile, small old desktop - design for a width of less than 960px
+*********************************************************************************************** */
+
+/* width < 960px */
+
+@media only screen and (max-width: 959px) {
+
+        /* Header
+        ======================================================================================= */
+        
+            /* Toplinks */
+            .top-links.links-separators .links > li > a{padding:0 15px;}
+            
+            /* Header 5 Style
+            =================================================================================== */
+            .header5 .top-links.links-separators .links > li.last > a{padding-right:15px;}
+            .header5 .shopping_cart .icon-cart{padding-left: 15px;}
+            
+        /* Category Page Toolbar
+        ======================================================================================= */
+        .toolbar .sorter{text-align: center;}
+        .toolbar .sorter > *{float:none;display:inline-block;margin:0px 5px;vertical-align: middle;}
+
+        /* Shopping Cart
+        ======================================================================================= */
+        .cart .cart-left-column,
+        .cart .cart-right-column{width:100% !important;margin-left:0% !important;margin-right:0% !important;}
+
+}
+
+
+/* ********************************************************************************************
+    Tablet (Portrait) - design for a width of 768px
+*********************************************************************************************** */
+
+/* 768px <= width < 960px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/* Cart
+	======================================================================================= */
+	.cart-table .product-image { max-width:80px; }
+        
+	/* Caption
+	======================================================================================= */
+	.caption .heading { font-size:25px; line-height: 21px;}
+	.caption p { font-size:14px; line-height: 18px;}
+	.caption button.button span span,
+        .banner .caption button.button span span{height: 35px;line-height: 35px;padding: 0 15px;font-size: 14px;}
+        
+	/* Default Magento classes
+	======================================================================================= */
+	.nobr { white-space:normal !important; }        
+
+}
+
+
+/* ********************************************************************************************
+    All desktop - design for a width of 768px and wider
+*********************************************************************************************** */
+
+/* 768px <= width */
+
+@media only screen and (min-width: 768px) {
+
+	/* Mobile accordion
+	======================================================================================= */
+	.mobile-accordion .block-title { border-bottom:none; }		/* Hide line when not on mobile */
+	.mobile-accordion .opener { display:none !important; }		/* Always hide when not on mobile */
+	.mobile-accordion .block-content { display:block !important; }	/* Always show when not on mobile */
+	.accordion .block-content{display: none;}
+
+}
+
+
+/* ********************************************************************************************
+    All mobile - design for a width of less than 768px
+*********************************************************************************************** */
+
+/* width < 768px */
+
+@media only screen and (max-width: 767px) {
+
+        /* Disable display banner with header
+	======================================================================================= */
+        body.cms-index-index .header-container,
+        body.cms-index-defaultindex .header-container,
+        body.cms-home .header-container{position: relative !important;}
+        
+	/* Header
+	======================================================================================= */
+
+            /* Global notices */
+            .global-site-notice .notice-inner { background:none; padding:10px 0; text-align:center; }
+            .global-site-notice .notice-inner p { width:100%; padding:0 0 10px; }
+            .global-site-notice .notice-inner .actions { padding-bottom:5px; }			
+                    
+            /* Logo */
+            .logo {margin-left:auto; margin-right:auto; text-align: center !important;margin-top: 20px;margin-bottom: 20px}
+            
+            /* Quick Search */
+            .quick-search{max-width:none;}
+                
+            /* Other */
+            .header{text-align: center;}
+            .header-top{line-height: 25px;padding: 5px 0px;}
+            .header-top .welcome-msg{line-height: 25px;}
+            .header-top .dropdown-toggle{line-height: 25px;}
+            
+            /* Header elements - align center */
+            .header .item-left,
+            .header .item-right{display: inline-block;float: none;margin: 0px 5px;text-align: center;vertical-align: top;}
+            
+            /* lang-curren-box */
+            .lang-curren-box{float:left;}
+            
+            /* Top Links */
+            .top-links{text-align:center;}
+            .top-links.links-separators .links > li > a{padding:0 10px;}
+            
+            /* Header 2 style
+            =================================================================================== */
+            .header2 .logo{margin-top:0px;}
+            .header2 .shopping_cart.dropdown{margin-left: 0;}
+                
+            /* Header 3 style
+            =================================================================================== */
+            .header3 .logo{text-align: left !important;margin-top: 25px;margin-bottom: 0px;}
+            .header3 .shopping_cart.dropdown{margin-top: 20px;float: right;margin-left: 0;}
+                
+            /* Header 4 style
+            =================================================================================== */
+            .header4 .logo{margin-top:0px;}
+
+            /* Header 5 style
+            =================================================================================== */
+            .header5 .logo{margin-top:0px;}
+            .header5 .top-links.links-separators .links > li.last > a{padding: 0 10px;}
+            
+            /* Header 6 style
+            =================================================================================== */
+            .header6 .quick-search{width: 100%;margin-top:10px;}
+            .header6 .form-search .button{position: absolute;}
+            .header6 .form-search .dropdown-menu{width: 100%;position: relative;}
+            .header6 .form-search .input-text{width: 100%;}
+        
+	/* Category view
+	======================================================================================= */
+	.products-list .product-shop,
+	.products-list .right-column,
+	.products-list .product-image-wrapper { margin-left: auto !important;margin-right: auto !important;float:none;}
+        
+        .products-list .product-image-wrapper,
+        .products-list .product-image{max-width:300px;display: block;}
+        .products-list .product-shop{padding-top: 20px;float:left;}
+
+	/* Toolbar
+	======================================================================================= */
+	
+	    /* Increase vertical spacing */
+            .my-account .pager{margin-top: 0px;}
+
+	/* Page heading With Rss Link
+	======================================================================================= */
+        .page-title { position:relative; }
+        .page-title .link-rss { float:none; display:block; position:static; margin:10px 0 0; }
+	
+	/* Cart
+	======================================================================================= */
+	
+            /* Buttons below table: align center */
+            .cart-table tfoot tr.first td,
+            .my-wishlist .buttons-set{ text-align:center !important; padding:0;}
+            .cart-table tfoot button.button,
+            .my-wishlist .buttons-set button.button{ display:inline-block; float:none !important; margin:0 0 3px; padding:0; }
+		
+        /* Products Page
+	======================================================================================= */
+                
+            /* Product primary column */
+            .product-view .product-shop{padding: 30px 0px 0 0px;}
+            
+            /* Product third column */
+            .product-view .product-third-column{padding: 30px 0px 0 0px;}        
+        
+	/* Tables
+	======================================================================================= */
+	.data-table thead .nobr { white-space:normal !important; }
+	.data-table th,
+	.data-table td { padding:10px; }
+	
+	/* Tables Formatting
+	======================================================================================= */
+	
+            /* Basic formatting */
+            .cart .data-table thead,
+            .my-wishlist .data-table thead,
+            .my-account .data-table thead,
+            .order-review .data-table thead,
+            .multiple-checkout .data-table thead{ display:none; }
+            
+            .cart .data-table tbody,
+            .my-wishlist .data-table tbody,
+            .my-account .data-table tbody,
+            .order-review .data-table tbody,
+            .multiple-checkout .data-table tbody{ background:transparent !important; }
+            
+            .cart .data-table tr,
+            .cart .data-table td,
+            .my-wishlist .data-table tr,
+            .my-wishlist .data-table td,
+            .my-account .data-table tr,
+            .my-account .data-table td,
+            .order-review .data-table tr,
+            .order-review .data-table td,
+            .multiple-checkout .data-table tr,
+            .multiple-checkout .data-table td{ border:none !important; background:transparent !important; display:block; width:100%; box-sizing: border-box;-webkit-box-sizing: border-box;-ms-box-sizing: border-box;-o-box-sizing: border-box;-moz-box-sizing: border-box;}
+            
+            .cart .data-table tr,
+            .my-wishlist .data-table tr,
+            .my-account .data-table tr,
+            .order-review .data-table tr,
+            .multiple-checkout .data-table tr{ border-bottom:1px solid #E4E4E4 !important; margin-bottom:20px; }
+            
+            .cart .data-table tfoot tr.last,
+            .my-wishlist .data-table tfoot tr.last,
+            .my-account .data-table tfoot tr.last,
+            .order-review .data-table tfoot tr.last,
+            .multiple-checkout .data-table tfoot tr.last{border-bottom: none !important;margin-bottom: 0px;}
+            
+            .cart .data-table tfoot tr.last{margin-bottom: 20px;}
+            
+            .order-items .price-excl-tax,
+            .multiple-checkout td .cart-price{display: inline-block;}
+            
+            .multiple-checkout .data-table td select{width: 100%;}
+			
+            /* Highlight first cell in table footer */
+            .my-account .data-table tfoot tr td:first-child,
+            .order-review .data-table tfoot tr td:first-child,
+            .multiple-checkout .data-table tfoot tr td:first-child{ font-weight:bold; }
+	
+            /* Show cell label */
+            .data-table .cartlabel {display: inline-block;width: 30%;min-width: 100px;max-width: 140px;margin-right: 10px;vertical-align: middle;}
+            
+            /* Show item options */        
+            .data-table .item-options{margin: 5px 0 0 0px;}        
+        
+	/* Forms Elements
+	======================================================================================= */
+	.form-list .field,
+	.form-list input.input-text,
+	.form-list textarea,
+	.form-list select,
+	.form-list li.wide .input-box,
+	.form-list li.wide input.input-text,
+	.form-list li.wide textarea,
+	.form-list li.wide select,
+        .form-list .customer-name-middlename > .field{ max-width:100%; width: 100%;}        
+        
+	/* Mobile accordion
+	======================================================================================= */
+	.mobile-accordion .block-content { display:none; }  /* Hide on mobile */
+	.accordion .block-content{display: none;}           /* Hide on mobile */
+	.mobile-accordion { position:relative; }            /* Always make "relative" when not on mobile (to avoid flickering on CSS transitions) */	        
+        
+	/* Grid and basic layout
+	======================================================================================= */
+                
+            /* Margin for col-left and col-right */
+            .col-left,
+            .col-right{
+                    margin-top:20px
+            }
+	
+	/* Magento utility classes
+	======================================================================================= */
+	.nobr { white-space:normal !important; }
+
+        /* Scroll Back To Top
+	======================================================================================= */
+        a.scrollup {display:none !important;}
+        
+	/* Caption 
+        ======================================================================================= */ 
+	.caption > * {}
+	.caption .heading { font-size:25px; margin-bottom:1px; line-height: 21px;}
+	.caption p { font-size:14px; margin-bottom:1px; line-height: 18px;}        
+	.caption button.button span span,
+        .banner .caption button.button span span{height: 30px;line-height: 30px;padding: 0 10px;font-size: 13px;}            
+	
+	/* Banner Slider
+	======================================================================================= */ 
+        
+            /* Banner Slider Controls */
+            .banner .owl-theme .owl-controls .owl-buttons{margin-top: -15px;}
+            .banner .owl-theme .owl-controls .owl-buttons div{width: 30px;height: 30px;line-height: 30px;font-size: 14px;}
+            
+            /* Banner Slider Pagination */
+            .banner .owl-theme .owl-controls .owl-pagination{ display:none !important; }
+            
+            /* Caption */
+            .bannercontainer .caption > * {display: inherit !important;}
+
+	/* Home Newsletter
+	======================================================================================= */
+        .home-newsletter .block-subscribe .block-title,
+        .home-newsletter .block-subscribe .block-content{max-width: 100%;width: 100%;text-align: center;}
+        
+        /* Footer
+	======================================================================================= */
+        
+            /* Footer Bottom */
+            .footer-bottom,
+            .footer-payment{text-align: center;}
+            .footer-bottom address{margin-bottom: 15px;}
+
+}
+
+/* end: width < 768px */
+
+
+/* ********************************************************************************************
+    Mobile (Landscape) - design for a width of 480px
+*********************************************************************************************** */
+
+/* 480 <= width < 768px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+/* end: 480 <= width < 768px */
+
+
+/* ********************************************************************************************
+    Design for a width of 640px
+*********************************************************************************************** */
+
+/* 640 <= width < 768px */
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+
+}
+
+/* end: 640 <= width < 768px */
+
+
+/* ********************************************************************************************
+    Design for a width of less than 640px
+*********************************************************************************************** */
+
+/* width < 640px */
+
+@media only screen and (max-width: 639px) {
+    
+        /* Column Grid
+        ======================================================================================= */
+        .columngrid.columngrid-adaptive .item { width:48%; clear:none !important; }
+        .columngrid.columngrid-adaptive .item:nth-child(2n+1) { clear:left !important; }
+    
+        /* Title Buttons (Display Buttons Full Width)
+        ======================================================================================= */                
+        .title-buttons button.button{width: 100%;margin: 0px 0px 10px 0px;}
+        .title-buttons button.button span{float:none;}
+        
+        /* Multiple Checkout Button Set (display backlink with button full width)
+        ======================================================================================= */                
+        .multiple-checkout .buttons-set .back-link,
+        .multiple-checkout .buttons-set .back-link + button.button,
+        .multiple-checkout .buttons-set .back-link + button.button span{float:none;}
+        .multiple-checkout .buttons-set .back-link + button.button{width:100%;margin-right: 0px;}
+
+}
+
+/* end: width < 640px */
+
+
+/* ********************************************************************************************
+    Design for a width of 480px
+*********************************************************************************************** */
+
+/* 480 <= width < 640px */
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+
+}
+
+/* end: 480 <= width < 640px */
+
+
+/* ********************************************************************************************
+    Design for a width of less than 480px (small mobile)
+*********************************************************************************************** */
+
+/* width < 480px */
+
+@media only screen and (max-width: 479px) {
+        
+        /* Header
+        ======================================================================================= */
+        
+            /* Header elements - align center */
+            .header .mobile-inline-container { text-align:center; }
+            .header .mobile-inline-container > * { float:none; display:inline-block; margin-left:5px; margin-right:5px; }
+            
+            /* Shopping Cart */
+            .shopping_cart {position: initial;}
+            .shopping_cart .dropdown-menu{min-width: 100%;top:inherit;}
+            
+            /* Block Header Top */
+            .header .item-left,
+            .header .item-right{margin-left:0px;margin-right:0px;display: inline-block;float: none;margin-left: -3px;}
+            
+            /* Header 2 style
+            =================================================================================== */
+            .header2 .shopping_cart.dropdown{margin-top: 20px;float:none;}            
+            
+            /* Header 3 style
+            =================================================================================== */
+            .header3 .logo{text-align: center !important;}
+            .header3 .shopping_cart.dropdown{float:none;}
+            
+            /* Header 4 style
+            =================================================================================== */            
+            .header4 .header-main .item-right{display: block;margin-left: 0px;}
+            .header4 .shopping_cart .icon-cart{width:40px;}
+            .header4 .cart-count{padding: 0px 7px;}
+            
+            /* Header 5 style
+            =================================================================================== */            
+            .header5 .shopping_cart{float: none;display: inline-block;}
+	
+        /* Toolbar
+	======================================================================================= */
+        
+            /* All elements - align center */
+            .sorter,
+            .pager {text-align: center !important;}        
+            .sorter *,
+            .pager *{display:inline-block;float:none !important;text-align:center !important;}
+        
+	/* Product page
+	======================================================================================= */
+	
+            /* Product Reviews */
+            .product-view .form-add .data-table th{font-size: inherit;font-weight: bold;}
+            .product-view .form-add .data-table th,
+            .product-view .form-add .data-table td { padding: 10px 7px; }        
+	
+        /* Account
+	======================================================================================= */
+			
+            /* Product Review Detail*/
+            .product-review .product-img-box{width: auto;float: none;}
+            .product-review .product-details{margin: 0 0px 20px 0px;}
+                
+	/* Grid elements
+	======================================================================================= */
+	.col2-set .col-1,
+	.col2-set .col-2 { width:100%; margin-bottom: 20px;}
+        
+        /* Ajex Cart Popup
+        ======================================================================================= */
+        div.alert-inner{margin-left: -48%;width: 96%;max-width: none;}
+        div.alert-inner a{float: none !important;}
+        div.alert-inner a.cart{margin-bottom:10px;}
+        
+        /* Caption
+        ======================================================================================= */
+        .caption > * { display:none !important; }
+        .caption .permanent { display:inline-block !important; }
+
+        .caption .heading { font-size:16px; line-height: 22px;}
+        .caption p { font-size: 12px; line-height: 18px;}
+
+}
+
+/* end: width < 480px */
+
+
+/* ********************************************************************************************
+    Design for a width of 320px (mobile - portrait)
+*********************************************************************************************** */
+
+/* 320px <= width < 480px */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/* end: 320px <= width < 480px */
+
+
+/* ********************************************************************************************
+    Design for a width of less than 380px
+*********************************************************************************************** */
+
+/* width < 380px */
+
+@media only screen and (max-width: 396px) {
+
+	/* Column Grid
+	======================================================================================= */
+            
+            /* Show 1 column */
+            .columngrid.columngrid-adaptive .item { width:98%; clear:none !important; }
+
+        /* Button Set (Backlink With Button Display Full Width)
+	======================================================================================= */                        
+        .buttons-set .back-link,
+        .buttons-set .back-link + button.button,
+        .buttons-set .back-link + button.button span{float:none;}
+        .buttons-set .back-link + button.button{width:100%;margin-right: 0px;}
+        
+        /* Opc Lorder */
+        .opc .buttons-set .back-link + button.button + .please-wait{width: 100%;text-align: center;margin-right: 0px;}
+        
+        /* Shopping Cart & Wishlist Button (Display same as button set) */
+        .cart-table tfoot button.button,
+        .my-wishlist .buttons-set button.button{width: 100%;margin: 0 0 5px 0px !important;}
+        
+        .cart-table tfoot button.button span,
+        .my-wishlist .buttons-set button.button span{float:none;}
+        
+	/* Testimonials
+        ======================================================================================= */                        
+        .testimonial_image{float:none;text-align:center;margin: 0 auto;}
+        .testimonial_text{margin-left:0px;margin-top:10px;}        
+
+}
+
+/* end: width < 380px */
+
+
+/* ********************************************************************************************
+    Design for a width of less than 320px
+*********************************************************************************************** */
+
+/* width < 320px */
+
+@media only screen and (max-width: 319px) {
+
+        /* Header
+        ======================================================================================= */
+
+            /* Header elements - align center */
+            .header .dropdown,
+            .lang-curren-box{display: inline-block;float: none;text-align: center;}
+        
+            /* Shopping Cart */
+            .header .dropdown.shopping_cart{display: block;position: relative;margin-left: 0px;margin-right: 0px;}
+            .header5 .header .dropdown.shopping_cart .dropdown-toggle{display: inline-block;}
+            
+            /* Header 4 style
+            =================================================================================== */
+            .header4 .cart-count{padding: 0px 2px;}
+            
+            /* Header 6 style
+            =================================================================================== */
+            .header6 .quick-search.dropdown{margin-top:10px;display: block;}
+            
+        /* Category Page Toolbar
+        ======================================================================================= */
+        .toolbar .sorter label{display:none;}
+
+}
+
+/* end: width < 320px */
+
+
+/* ********************************************************************************************
+    Design for a width of 240px (small mobile)
+*********************************************************************************************** */
+
+/* 240px <= width < 320px */
+
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+
+}
+
+/* end: 240px <= width < 320px */
+
+
+/* ********************************************************************************************
+    Design for a width of lass than 240px
+*********************************************************************************************** */
+
+/* width < 240px */
+
+@media only screen and (max-width: 239px) {
+
+}
+
+/* end: width < 240px */
+
+
+/*Additional custom CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* RTL RESPONIVE */
+
+
+/* END RTL RESPONSIVE */
+
+
+
+
+
+
