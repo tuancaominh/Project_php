@@ -1,0 +1,22 @@
+*{ margin:0px; padding:0px}
+ul li{ list-style-type:none}
+a{ text-decoration:none; color:#000}
+a:hover{ color:#F00}
+img{ border:none;}
+body{ background:url(images/background_03.png) repeat};
+#wapper{ width:100%; }
+#main{ width:1000px; margin:20px auto; border:0px solid #000}
+#header{ width:1000px; margin:0px auto; height:200px; background:url(images/Untitled-1.png) no-repeat; position:relative}
+#conten{width:1000px; margin:0px auto; margin:5px 0px;}
+#left_conten{width:200px; height:auto; float:left;}
+#right_conten{width:799px; height:auto; float:left; background:#FFF;}
+#footer{width:1000px; margin:0px auto; background:#666; height:30px; text-align:center}
+#menu{ width:900px; height:30px; position:absolute; top:180px; left:650px}
+#menu ul li{ display:block; float:left; margin:0px 10px}
+
+.cls{ clear:left}
+.left_conten{ width:200px; float:left; background:#999}
+.title{ width:200px; height:30px; background:#00923f; border-top-left-radius:5px;border-top-right-radius:5px; line-height:30px; text-align:center; color:#FFF; font-size:18px}
+.list_conten{ width:200px; float:left}
+.list_conten ul li{ width:160px; height:25px; border-bottom:1px dotted #0000CC; padding-left:40px}
+.list_conten ul li:hover{ background:#F96}
